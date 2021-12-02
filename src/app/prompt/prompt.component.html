@@ -1,0 +1,43 @@
+<!-- <mat-toolbar *ngIf="data.mobileType === 'android'" color="primary" class="android-prompt">
+    <button mat-button (click)="installPwa()">
+      Add to Home screen
+    </button>
+    <button mat-icon-button (click)="close()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-toolbar>
+  
+  <div *ngIf="data.mobileType === 'ios'" class="ios-prompt">
+    <button class="close-ios-inv" mat-button color="primary" (click)="close()"><mat-icon>close</mat-icon></button>
+    <div>To install this web app on your device tap the Menu button and then 'Add to Home screen' button</div>
+    <div><img src="./assets/ios-menu-btn.png"> <mat-icon>navigate_next</mat-icon> <img src="./assets/ios-add-btn.png"></div>
+  </div> -->
+
+  <ng-template #androidModal let-modal>
+    <div class="modal-header">
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click'); close()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        <button class="btn btn-primary" (click)="installPwa()">
+            Add to Home screen
+        </button>
+        <button class="btn btn-danger" (click)="close()">
+            close
+        </button>
+    </div>
+  </ng-template>
+
+  <ng-template #iosModal let-modal>
+    <div class="modal-header">
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click'); close()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">fkdjfkjd
+        <div>To install this web app on your device tap the Menu button and then 'Add to Home screen' button</div>
+        <div><img src="./assets/ios-menu-btn.png"> <mat-icon>navigate_next</mat-icon> <img src="./assets/ios-add-btn.png"></div>
+    </div>
+  </ng-template>
+  
