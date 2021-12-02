@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1638449134797,
+  "index": "https://github.com/grgsamrita/angular-pwa-demo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/grgsamrita/angular-pwa-demo/favicon.ico",
+        "https://github.com/grgsamrita/angular-pwa-demo/index.html",
+        "https://github.com/grgsamrita/angular-pwa-demo/main.49b13752e19d8e0b5c2d.js",
+        "https://github.com/grgsamrita/angular-pwa-demo/manifest.webmanifest",
+        "https://github.com/grgsamrita/angular-pwa-demo/polyfills.995aa8d020d23b5acd01.js",
+        "https://github.com/grgsamrita/angular-pwa-demo/runtime.7b63b9fd40098a2e8207.js",
+        "https://github.com/grgsamrita/angular-pwa-demo/scripts.505ed5c9103be7dc0e8b.js",
+        "https://github.com/grgsamrita/angular-pwa-demo/styles.8143ce94905e2679f623.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-128x128.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-144x144.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-152x152.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-192x192.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-384x384.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-512x512.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-72x72.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-96x96.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/ios-add-btn.png",
+        "https://github.com/grgsamrita/angular-pwa-demo/assets/ios-menu-btn.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/ios-add-btn.png": "b04f8aff472620d61612217ef4b2cd94f07b914b",
+    "https://github.com/grgsamrita/angular-pwa-demo/assets/ios-menu-btn.png": "85935a3142fbdca3ebd69db254792588e3c48b13",
+    "https://github.com/grgsamrita/angular-pwa-demo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.com/grgsamrita/angular-pwa-demo/index.html": "76477faeb179f43908acd8e926704d206ecb98b4",
+    "https://github.com/grgsamrita/angular-pwa-demo/main.49b13752e19d8e0b5c2d.js": "28d5023015c1446be97edc7a8a67698a19341040",
+    "https://github.com/grgsamrita/angular-pwa-demo/manifest.webmanifest": "0b338b06401fe612a436ae08921bac56cf450e9b",
+    "https://github.com/grgsamrita/angular-pwa-demo/polyfills.995aa8d020d23b5acd01.js": "a5081f9061cd4695295ba7c6e6e43104c81f2a70",
+    "https://github.com/grgsamrita/angular-pwa-demo/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://github.com/grgsamrita/angular-pwa-demo/scripts.505ed5c9103be7dc0e8b.js": "3e5632dd9797cbbfbb0bbab243e6b4cc705ca968",
+    "https://github.com/grgsamrita/angular-pwa-demo/styles.8143ce94905e2679f623.css": "4f52caf7e1b62bf471659544784f494b5d587f60"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
